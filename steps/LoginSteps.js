@@ -9,7 +9,6 @@ class LoginSteps extends BaseSteps {
       passwordInput: page.locator("#input_password"),
       continueButton: page.locator("#auth-email-cta-continue"),
       submitButton: page.locator("#signin-continue"),
-      successIcon: page.locator("//html/body/div[1]/div/div[3]/div[2]/div/div/div/div[2]/form/div/div[2]/div/span"),
     };
   }
 

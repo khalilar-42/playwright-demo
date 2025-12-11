@@ -13,7 +13,6 @@ class BaseSteps {
 
   async stableClick(locator, timeout = 5000) {
     await locator.waitFor({ state: "visible", timeout });
-    await this.page.waitForLoadState("networkidle");
     await locator.click({ trial: true });
     await locator.click();
   }
