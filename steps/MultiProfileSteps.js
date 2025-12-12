@@ -5,7 +5,7 @@ class MultiProfileSteps extends BaseSteps {
     super(page);
 
     this.elements = {
-      mainProfileText: page.getByText("QA-Auto-Web"),
+      mainProfileText: page.getByText("QA-Auto-Webe"),
     };
   }
 
